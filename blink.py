@@ -2,7 +2,7 @@
 import RPi.GPIO as GPIO
 import time
 
-blink_led = 29
+blink_led = 8
 GPIO.setmode(GPIO.BOARD) # Note This is specifying the physical pins on the Raspberry Pi Header 
 GPIO.setwarnings(False)
 GPIO.setup(blink_led,GPIO.OUT)
